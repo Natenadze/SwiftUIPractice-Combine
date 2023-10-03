@@ -22,6 +22,7 @@
 		5D7E7E9D2AC1D479007DD4C2 /* BorderLineAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7E7E9C2AC1D479007DD4C2 /* BorderLineAnimation.swift */; };
 		5D8776392AC32B2D00181790 /* RatingBars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8776382AC32B2D00181790 /* RatingBars.swift */; };
 		5D9845E82AC4472400FA420A /* CrawlingText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9845E72AC4472400FA420A /* CrawlingText.swift */; };
+		5DA5C0882ACC243700862E11 /* MatchedGeometryEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA5C0872ACC243700862E11 /* MatchedGeometryEffect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		5D7E7E9C2AC1D479007DD4C2 /* BorderLineAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderLineAnimation.swift; sourceTree = "<group>"; };
 		5D8776382AC32B2D00181790 /* RatingBars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingBars.swift; sourceTree = "<group>"; };
 		5D9845E72AC4472400FA420A /* CrawlingText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrawlingText.swift; sourceTree = "<group>"; };
+		5DA5C0872ACC243700862E11 /* MatchedGeometryEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				5D7E7E9A2AC1C843007DD4C2 /* Transition.swift */,
 				5D8776382AC32B2D00181790 /* RatingBars.swift */,
 				5D9845E72AC4472400FA420A /* CrawlingText.swift */,
+				5DA5C0872ACC243700862E11 /* MatchedGeometryEffect.swift */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				5D57C5472ABC7ABE004C38E7 /* Combine.swift in Sources */,
 				5D57C54F2ABDA36C004C38E7 /* DownloadVM.swift in Sources */,
 				5D57C5442ABC78EE004C38E7 /* CounterView.swift in Sources */,
+				5DA5C0882ACC243700862E11 /* MatchedGeometryEffect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
