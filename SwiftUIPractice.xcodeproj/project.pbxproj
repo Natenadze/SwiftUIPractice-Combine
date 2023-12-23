@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D50E8E22B36DB8A00048370 /* ChristmasTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50E8E12B36DB8A00048370 /* ChristmasTree.swift */; };
+		5D50E8E42B36DBD100048370 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50E8E32B36DBD100048370 /* Triangle.swift */; };
+		5D50E8E62B36DBE300048370 /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50E8E52B36DBE300048370 /* Star.swift */; };
 		5D57C5342ABC6D6E004C38E7 /* SwiftUIPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D57C5332ABC6D6E004C38E7 /* SwiftUIPracticeApp.swift */; };
 		5D57C5362ABC6D6E004C38E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D57C5352ABC6D6E004C38E7 /* ContentView.swift */; };
 		5D57C5382ABC6D6F004C38E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D57C5372ABC6D6F004C38E7 /* Assets.xcassets */; };
@@ -26,6 +29,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D50E8E12B36DB8A00048370 /* ChristmasTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChristmasTree.swift; sourceTree = "<group>"; };
+		5D50E8E32B36DBD100048370 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		5D50E8E52B36DBE300048370 /* Star.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
 		5D57C5302ABC6D6E004C38E7 /* SwiftUIPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D57C5332ABC6D6E004C38E7 /* SwiftUIPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPracticeApp.swift; sourceTree = "<group>"; };
 		5D57C5352ABC6D6E004C38E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +62,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D50E8DD2B36DB3300048370 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5D57C5332ABC6D6E004C38E7 /* SwiftUIPracticeApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5D50E8E02B36DB6400048370 /* DrawingFigures */ = {
+			isa = PBXGroup;
+			children = (
+				5D50E8E12B36DB8A00048370 /* ChristmasTree.swift */,
+				5D50E8E32B36DBD100048370 /* Triangle.swift */,
+				5D50E8E52B36DBE300048370 /* Star.swift */,
+			);
+			path = DrawingFigures;
+			sourceTree = "<group>";
+		};
 		5D57C5272ABC6D6E004C38E7 = {
 			isa = PBXGroup;
 			children = (
@@ -75,7 +99,8 @@
 		5D57C5322ABC6D6E004C38E7 /* SwiftUIPractice */ = {
 			isa = PBXGroup;
 			children = (
-				5D57C5332ABC6D6E004C38E7 /* SwiftUIPracticeApp.swift */,
+				5D50E8DD2B36DB3300048370 /* App */,
+				5D50E8E02B36DB6400048370 /* DrawingFigures */,
 				5D7E7E992AC1C813007DD4C2 /* Animation */,
 				5D57C5452ABC7A38004C38E7 /* ObservableClass */,
 				5D57C5412ABC73A8004C38E7 /* NotificationView.swift */,
@@ -209,6 +234,8 @@
 				5D7E7E9D2AC1D479007DD4C2 /* BorderLineAnimation.swift in Sources */,
 				5D57C5362ABC6D6E004C38E7 /* ContentView.swift in Sources */,
 				5D57C54A2ABDA0BF004C38E7 /* DownloadJSONwithCombine.swift in Sources */,
+				5D50E8E22B36DB8A00048370 /* ChristmasTree.swift in Sources */,
+				5D50E8E62B36DBE300048370 /* Star.swift in Sources */,
 				5D9845E82AC4472400FA420A /* CrawlingText.swift in Sources */,
 				5D8776392AC32B2D00181790 /* RatingBars.swift in Sources */,
 				5D57C5342ABC6D6E004C38E7 /* SwiftUIPracticeApp.swift in Sources */,
@@ -219,6 +246,7 @@
 				5D57C54F2ABDA36C004C38E7 /* DownloadVM.swift in Sources */,
 				5D57C5442ABC78EE004C38E7 /* CounterView.swift in Sources */,
 				5DA5C0882ACC243700862E11 /* MatchedGeometryEffect.swift in Sources */,
+				5D50E8E42B36DBD100048370 /* Triangle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
