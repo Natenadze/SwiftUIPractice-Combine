@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D27D6E32BC0411A005737B1 /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D27D6E22BC0411A005737B1 /* AsyncButton.swift */; };
+		5D29FCBD2B38D26C001093FC /* ChristmasTree2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D29FCBC2B38D26C001093FC /* ChristmasTree2.swift */; };
 		5D50E8E22B36DB8A00048370 /* ChristmasTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50E8E12B36DB8A00048370 /* ChristmasTree.swift */; };
 		5D50E8E42B36DBD100048370 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50E8E32B36DBD100048370 /* Triangle.swift */; };
 		5D50E8E62B36DBE300048370 /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50E8E52B36DBE300048370 /* Star.swift */; };
+		5D50E8E82B36E86100048370 /* WeatherInfoSwing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50E8E72B36E86100048370 /* WeatherInfoSwing.swift */; };
 		5D57C5342ABC6D6E004C38E7 /* SwiftUIPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D57C5332ABC6D6E004C38E7 /* SwiftUIPracticeApp.swift */; };
 		5D57C5362ABC6D6E004C38E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D57C5352ABC6D6E004C38E7 /* ContentView.swift */; };
 		5D57C5382ABC6D6F004C38E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D57C5372ABC6D6F004C38E7 /* Assets.xcassets */; };
@@ -21,17 +24,28 @@
 		5D57C54D2ABDA335004C38E7 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D57C54C2ABDA335004C38E7 /* PostModel.swift */; };
 		5D57C54F2ABDA36C004C38E7 /* DownloadVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D57C54E2ABDA36C004C38E7 /* DownloadVM.swift */; };
 		5D6C39A32AC16F7800F58D7B /* SnowingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6C39A22AC16F7800F58D7B /* SnowingAnimation.swift */; };
+		5D710DE42B38DABB0096BDE5 /* MiddleFingerPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D710DE32B38DABB0096BDE5 /* MiddleFingerPopUp.swift */; };
+		5D79311C2B4983A500A1335E /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D79311B2B4983A500A1335E /* NavigationView.swift */; };
+		5D79311E2B49853200A1335E /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D79311D2B49853200A1335E /* Router.swift */; };
+		5D7931212B4990CC00A1335E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7931202B4990CC00A1335E /* HomeView.swift */; };
+		5D7931232B4990E100A1335E /* LivingRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7931222B4990E100A1335E /* LivingRoomView.swift */; };
+		5D7931252B4990FB00A1335E /* BedRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7931242B4990FB00A1335E /* BedRoomView.swift */; };
 		5D7E7E9B2AC1C843007DD4C2 /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7E7E9A2AC1C843007DD4C2 /* Transition.swift */; };
 		5D7E7E9D2AC1D479007DD4C2 /* BorderLineAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7E7E9C2AC1D479007DD4C2 /* BorderLineAnimation.swift */; };
 		5D8776392AC32B2D00181790 /* RatingBars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8776382AC32B2D00181790 /* RatingBars.swift */; };
 		5D9845E82AC4472400FA420A /* CrawlingText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9845E72AC4472400FA420A /* CrawlingText.swift */; };
 		5DA5C0882ACC243700862E11 /* MatchedGeometryEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA5C0872ACC243700862E11 /* MatchedGeometryEffect.swift */; };
+		5DE6D2372B581C1F00823338 /* RouterView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6D2362B581C1F00823338 /* RouterView2.swift */; };
+		5DE6D2392B581C8900823338 /* Router2Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6D2382B581C8900823338 /* Router2Views.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D27D6E22BC0411A005737B1 /* AsyncButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncButton.swift; sourceTree = "<group>"; };
+		5D29FCBC2B38D26C001093FC /* ChristmasTree2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChristmasTree2.swift; sourceTree = "<group>"; };
 		5D50E8E12B36DB8A00048370 /* ChristmasTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChristmasTree.swift; sourceTree = "<group>"; };
 		5D50E8E32B36DBD100048370 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
 		5D50E8E52B36DBE300048370 /* Star.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
+		5D50E8E72B36E86100048370 /* WeatherInfoSwing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherInfoSwing.swift; sourceTree = "<group>"; };
 		5D57C5302ABC6D6E004C38E7 /* SwiftUIPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D57C5332ABC6D6E004C38E7 /* SwiftUIPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPracticeApp.swift; sourceTree = "<group>"; };
 		5D57C5352ABC6D6E004C38E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,11 +58,19 @@
 		5D57C54C2ABDA335004C38E7 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		5D57C54E2ABDA36C004C38E7 /* DownloadVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadVM.swift; sourceTree = "<group>"; };
 		5D6C39A22AC16F7800F58D7B /* SnowingAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowingAnimation.swift; sourceTree = "<group>"; };
+		5D710DE32B38DABB0096BDE5 /* MiddleFingerPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleFingerPopUp.swift; sourceTree = "<group>"; };
+		5D79311B2B4983A500A1335E /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		5D79311D2B49853200A1335E /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		5D7931202B4990CC00A1335E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5D7931222B4990E100A1335E /* LivingRoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivingRoomView.swift; sourceTree = "<group>"; };
+		5D7931242B4990FB00A1335E /* BedRoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedRoomView.swift; sourceTree = "<group>"; };
 		5D7E7E9A2AC1C843007DD4C2 /* Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transition.swift; sourceTree = "<group>"; };
 		5D7E7E9C2AC1D479007DD4C2 /* BorderLineAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderLineAnimation.swift; sourceTree = "<group>"; };
 		5D8776382AC32B2D00181790 /* RatingBars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingBars.swift; sourceTree = "<group>"; };
 		5D9845E72AC4472400FA420A /* CrawlingText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrawlingText.swift; sourceTree = "<group>"; };
 		5DA5C0872ACC243700862E11 /* MatchedGeometryEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffect.swift; sourceTree = "<group>"; };
+		5DE6D2362B581C1F00823338 /* RouterView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterView2.swift; sourceTree = "<group>"; };
+		5DE6D2382B581C8900823338 /* Router2Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router2Views.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D27D6E12BC0410A005737B1 /* AsyncButton */ = {
+			isa = PBXGroup;
+			children = (
+				5D27D6E22BC0411A005737B1 /* AsyncButton.swift */,
+			);
+			path = AsyncButton;
+			sourceTree = "<group>";
+		};
 		5D50E8DD2B36DB3300048370 /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -99,7 +129,9 @@
 		5D57C5322ABC6D6E004C38E7 /* SwiftUIPractice */ = {
 			isa = PBXGroup;
 			children = (
+				5D27D6E12BC0410A005737B1 /* AsyncButton */,
 				5D50E8DD2B36DB3300048370 /* App */,
+				5D79311A2B49839800A1335E /* Navigation */,
 				5D50E8E02B36DB6400048370 /* DrawingFigures */,
 				5D7E7E992AC1C813007DD4C2 /* Animation */,
 				5D57C5452ABC7A38004C38E7 /* ObservableClass */,
@@ -147,6 +179,27 @@
 			name = JSONDownload;
 			sourceTree = "<group>";
 		};
+		5D79311A2B49839800A1335E /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				5D79311B2B4983A500A1335E /* NavigationView.swift */,
+				5D79311F2B4990B300A1335E /* Router */,
+				5DE6D2352B581BE300823338 /* Router2 */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		5D79311F2B4990B300A1335E /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				5D79311D2B49853200A1335E /* Router.swift */,
+				5D7931202B4990CC00A1335E /* HomeView.swift */,
+				5D7931222B4990E100A1335E /* LivingRoomView.swift */,
+				5D7931242B4990FB00A1335E /* BedRoomView.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		5D7E7E992AC1C813007DD4C2 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,8 +209,20 @@
 				5D8776382AC32B2D00181790 /* RatingBars.swift */,
 				5D9845E72AC4472400FA420A /* CrawlingText.swift */,
 				5DA5C0872ACC243700862E11 /* MatchedGeometryEffect.swift */,
+				5D50E8E72B36E86100048370 /* WeatherInfoSwing.swift */,
+				5D29FCBC2B38D26C001093FC /* ChristmasTree2.swift */,
+				5D710DE32B38DABB0096BDE5 /* MiddleFingerPopUp.swift */,
 			);
 			path = Animation;
+			sourceTree = "<group>";
+		};
+		5DE6D2352B581BE300823338 /* Router2 */ = {
+			isa = PBXGroup;
+			children = (
+				5DE6D2362B581C1F00823338 /* RouterView2.swift */,
+				5DE6D2382B581C8900823338 /* Router2Views.swift */,
+			);
+			path = Router2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +295,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DE6D2372B581C1F00823338 /* RouterView2.swift in Sources */,
+				5DE6D2392B581C8900823338 /* Router2Views.swift in Sources */,
+				5D79311E2B49853200A1335E /* Router.swift in Sources */,
+				5D7931232B4990E100A1335E /* LivingRoomView.swift in Sources */,
 				5D7E7E9B2AC1C843007DD4C2 /* Transition.swift in Sources */,
 				5D7E7E9D2AC1D479007DD4C2 /* BorderLineAnimation.swift in Sources */,
 				5D57C5362ABC6D6E004C38E7 /* ContentView.swift in Sources */,
@@ -237,15 +306,22 @@
 				5D50E8E22B36DB8A00048370 /* ChristmasTree.swift in Sources */,
 				5D50E8E62B36DBE300048370 /* Star.swift in Sources */,
 				5D9845E82AC4472400FA420A /* CrawlingText.swift in Sources */,
+				5D79311C2B4983A500A1335E /* NavigationView.swift in Sources */,
 				5D8776392AC32B2D00181790 /* RatingBars.swift in Sources */,
 				5D57C5342ABC6D6E004C38E7 /* SwiftUIPracticeApp.swift in Sources */,
 				5D57C54D2ABDA335004C38E7 /* PostModel.swift in Sources */,
 				5D57C5422ABC73A8004C38E7 /* NotificationView.swift in Sources */,
+				5D50E8E82B36E86100048370 /* WeatherInfoSwing.swift in Sources */,
+				5D7931252B4990FB00A1335E /* BedRoomView.swift in Sources */,
+				5D710DE42B38DABB0096BDE5 /* MiddleFingerPopUp.swift in Sources */,
 				5D6C39A32AC16F7800F58D7B /* SnowingAnimation.swift in Sources */,
 				5D57C5472ABC7ABE004C38E7 /* Combine.swift in Sources */,
 				5D57C54F2ABDA36C004C38E7 /* DownloadVM.swift in Sources */,
+				5D27D6E32BC0411A005737B1 /* AsyncButton.swift in Sources */,
 				5D57C5442ABC78EE004C38E7 /* CounterView.swift in Sources */,
 				5DA5C0882ACC243700862E11 /* MatchedGeometryEffect.swift in Sources */,
+				5D29FCBD2B38D26C001093FC /* ChristmasTree2.swift in Sources */,
+				5D7931212B4990CC00A1335E /* HomeView.swift in Sources */,
 				5D50E8E42B36DBD100048370 /* Triangle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,8 +7,8 @@
 
 import SwiftUI
 
-
-@Observable class CounterData {
+@Observable 
+class CounterData {
      var number = 0
     
     func plusNumber() {

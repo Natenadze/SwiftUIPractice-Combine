@@ -20,3 +20,8 @@ struct Triangle: Shape {
         return path
     }
 }
+
+
+#Preview {
+    Triangle()
+}

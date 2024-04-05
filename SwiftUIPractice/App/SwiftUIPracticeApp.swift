@@ -11,9 +11,11 @@ import SwiftUI
 struct SwiftUIPracticeApp: App {
     var body: some Scene {
         WindowGroup {
-//            ContentView()
+//            ContentView2()
+            HomeView()
 //            Subscriber()
-            DownloadWithCombine()
+//            DownloadWithCombine()
+//            NotificationView()
         }
     }
 }
