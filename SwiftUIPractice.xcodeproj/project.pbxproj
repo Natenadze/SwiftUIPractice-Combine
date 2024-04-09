@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D186E4C2BC5F597009233FB /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D186E4B2BC5F597009233FB /* ViewModifiers.swift */; };
 		5D27D6E32BC0411A005737B1 /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D27D6E22BC0411A005737B1 /* AsyncButton.swift */; };
 		5D29FCBD2B38D26C001093FC /* ChristmasTree2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D29FCBC2B38D26C001093FC /* ChristmasTree2.swift */; };
 		5D50E8E22B36DB8A00048370 /* ChristmasTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50E8E12B36DB8A00048370 /* ChristmasTree.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D186E4B2BC5F597009233FB /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
 		5D27D6E22BC0411A005737B1 /* AsyncButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncButton.swift; sourceTree = "<group>"; };
 		5D29FCBC2B38D26C001093FC /* ChristmasTree2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChristmasTree2.swift; sourceTree = "<group>"; };
 		5D50E8E12B36DB8A00048370 /* ChristmasTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChristmasTree.swift; sourceTree = "<group>"; };
@@ -129,14 +131,15 @@
 		5D57C5322ABC6D6E004C38E7 /* SwiftUIPractice */ = {
 			isa = PBXGroup;
 			children = (
-				5D27D6E12BC0410A005737B1 /* AsyncButton */,
 				5D50E8DD2B36DB3300048370 /* App */,
+				5D27D6E12BC0410A005737B1 /* AsyncButton */,
 				5D79311A2B49839800A1335E /* Navigation */,
 				5D50E8E02B36DB6400048370 /* DrawingFigures */,
 				5D7E7E992AC1C813007DD4C2 /* Animation */,
 				5D57C5452ABC7A38004C38E7 /* ObservableClass */,
 				5D57C5412ABC73A8004C38E7 /* NotificationView.swift */,
 				5D57C5482ABDA066004C38E7 /* CombineSection */,
+				5D186E4B2BC5F597009233FB /* ViewModifiers.swift */,
 				5D57C5372ABC6D6F004C38E7 /* Assets.xcassets */,
 				5D57C5392ABC6D6F004C38E7 /* Preview Content */,
 			);
@@ -296,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DE6D2372B581C1F00823338 /* RouterView2.swift in Sources */,
+				5D186E4C2BC5F597009233FB /* ViewModifiers.swift in Sources */,
 				5DE6D2392B581C8900823338 /* Router2Views.swift in Sources */,
 				5D79311E2B49853200A1335E /* Router.swift in Sources */,
 				5D7931232B4990E100A1335E /* LivingRoomView.swift in Sources */,
