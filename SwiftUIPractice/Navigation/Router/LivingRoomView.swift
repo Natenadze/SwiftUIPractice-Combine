@@ -1,5 +1,5 @@
 //
-//  LivingroomView.swift
+//  LivingRoomView.swift
 //  SwiftUIPractice
 //
 //  Created by Davit Natenadze on 06.01.24.
@@ -7,12 +7,11 @@
 
 import SwiftUI
 
-struct LivingroomView: View, Hashable {
+struct LivingRoomView: View {
  
     var id = 1
     var router: Router
     
-    // MARK: - Body
     var body: some View {
         VStack {
             Image(systemName: "sofa.fill")
@@ -24,12 +23,12 @@ struct LivingroomView: View, Hashable {
                 .padding(.top, 12)
             
             Button("Go to Jane's Bedroom") {
-                router.navigate(to: .bedroom(owner: "Jane"))
+                router.navigate(to: .bedroom(owner: "Jane", color: .pink))
             }
             .padding(.top, 12)
             
             Button("Go to John's Bedroom") {
-                router.navigate(to: .bedroom(owner: "John"))
+                router.navigate(to: .bedroom(owner: "John", color: .gray))
             }
             .padding(.top, 12)
             
@@ -44,14 +43,15 @@ struct LivingroomView: View, Hashable {
         .padding()
     }
     
+}
+
+
+extension LivingRoomView: Hashable {
     func hash(into hasher: inout Hasher) {
-        // Use any properties that uniquely identify your view for hashing
-        // In this example, I'm using the router property as an identifier
         hasher.combine(id)
     }
     
-    static func == (lhs: LivingroomView, rhs: LivingroomView) -> Bool {
+    static func == (lhs: LivingRoomView, rhs: LivingRoomView) -> Bool {
         lhs.id == rhs.id
     }
-    
 }

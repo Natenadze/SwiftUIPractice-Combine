@@ -39,7 +39,7 @@ class SubscriberVM: ObservableObject {
     func addTextFieldSubscriber() {
         $textFieldText
         // waits to end typing and runs .map after 0.5 sec
-            .debounce(for: .seconds(0.2), scheduler: DispatchQueue.main)
+            .debounce(for: .seconds(0.5), scheduler: DispatchQueue.main)
             .map({ text -> Bool in
                 if text.count > 3 {
                     return true

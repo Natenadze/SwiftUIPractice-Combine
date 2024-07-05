@@ -23,13 +23,8 @@ struct HomeView: View {
                 Text("Home")
                     .font(.system(size: 24))
                 
-                
-//                Button("Go to living room", action: {
-//                    router.navigate(to: LivingroomView(router: router))
-//                })
-                
-                Button("Go to Bedroom", action: {
-                    router.navigate(to: .bedroom(owner: "Bondo"))
+                Button("Go to Bondo's Bedroom", action: {
+                    router.navigate(to: .bedroom(owner: "Bondo", color: .orange))
                 })
                 
                 Button("Go to Living room", action: {
@@ -39,13 +34,10 @@ struct HomeView: View {
                 .padding(.top, 12)
 
             }
-//            .navigationDestination(for: LivingroomView.self) { asd in
-//                LivingroomView(router: router)
-//            }
             .navigationDestination(for: Router.Destination.self) { destination in
                 switch destination {
-                case .livingroom: LivingroomView(router: router)
-                case .bedroom(let owner): BedroomView(router: router, ownerName: owner)
+                case .livingroom: LivingRoomView(router: router)
+                case .bedroom(let owner, let color): BedroomView(router: router, ownerName: owner, color: color)
                 }
             }
         }

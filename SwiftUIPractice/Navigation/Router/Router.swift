@@ -12,9 +12,9 @@ final class Router: ObservableObject {
     
     @Published var navPath = NavigationPath()
     
-    public enum Destination:  Hashable {
+    public enum Destination: Hashable {
         case livingroom
-        case bedroom(owner: String)
+        case bedroom(owner: String, color: Color)
     }
     
     // MARK: - Methods
