@@ -10,6 +10,7 @@
 		5D186E4C2BC5F597009233FB /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D186E4B2BC5F597009233FB /* ViewModifiers.swift */; };
 		5D27D6E32BC0411A005737B1 /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D27D6E22BC0411A005737B1 /* AsyncButton.swift */; };
 		5D29FCBD2B38D26C001093FC /* ChristmasTree2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D29FCBC2B38D26C001093FC /* ChristmasTree2.swift */; };
+		5D4DA9CE2C383043006E70B5 /* AdvancedCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4DA9CD2C383043006E70B5 /* AdvancedCombine.swift */; };
 		5D50E8E22B36DB8A00048370 /* ChristmasTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50E8E12B36DB8A00048370 /* ChristmasTree.swift */; };
 		5D50E8E42B36DBD100048370 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50E8E32B36DBD100048370 /* Triangle.swift */; };
 		5D50E8E62B36DBE300048370 /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50E8E52B36DBE300048370 /* Star.swift */; };
@@ -50,6 +51,7 @@
 		5D186E4B2BC5F597009233FB /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
 		5D27D6E22BC0411A005737B1 /* AsyncButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncButton.swift; sourceTree = "<group>"; };
 		5D29FCBC2B38D26C001093FC /* ChristmasTree2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChristmasTree2.swift; sourceTree = "<group>"; };
+		5D4DA9CD2C383043006E70B5 /* AdvancedCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedCombine.swift; sourceTree = "<group>"; };
 		5D50E8E12B36DB8A00048370 /* ChristmasTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChristmasTree.swift; sourceTree = "<group>"; };
 		5D50E8E32B36DBD100048370 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
 		5D50E8E52B36DBE300048370 /* Star.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
@@ -104,6 +106,14 @@
 				5D27D6E22BC0411A005737B1 /* AsyncButton.swift */,
 			);
 			path = AsyncButton;
+			sourceTree = "<group>";
+		};
+		5D4DA9CC2C38302D006E70B5 /* AdvancedComb */ = {
+			isa = PBXGroup;
+			children = (
+				5D4DA9CD2C383043006E70B5 /* AdvancedCombine.swift */,
+			);
+			name = AdvancedComb;
 			sourceTree = "<group>";
 		};
 		5D50E8DD2B36DB3300048370 /* App */ = {
@@ -179,6 +189,7 @@
 		5D57C5482ABDA066004C38E7 /* CombineSection */ = {
 			isa = PBXGroup;
 			children = (
+				5D4DA9CC2C38302D006E70B5 /* AdvancedComb */,
 				5D57C5462ABC7ABE004C38E7 /* Combine.swift */,
 				5D57C54B2ABDA318004C38E7 /* JSONDownload */,
 			);
@@ -367,6 +378,7 @@
 				5DEA95F22C0B649B001C86C0 /* RoomListview.swift in Sources */,
 				5D57C5472ABC7ABE004C38E7 /* Combine.swift in Sources */,
 				5D57C54F2ABDA36C004C38E7 /* DownloadVM.swift in Sources */,
+				5D4DA9CE2C383043006E70B5 /* AdvancedCombine.swift in Sources */,
 				5D27D6E32BC0411A005737B1 /* AsyncButton.swift in Sources */,
 				5DEA95F02C0B646D001C86C0 /* RoomDetailView.swift in Sources */,
 				5DEA95F92C0BB443001C86C0 /* SwiftUIView.swift in Sources */,
